@@ -53,8 +53,9 @@ PROFILE_ID: Tests will be imported in one of your profiles on Calliope.pro.
 
 # Test results monitoring tool: Calliope.pro
 
-  The link to the results in Calliope.pro:
-  https://app.calliope.pro/reports/134644/public/f9d31814-7abe-4cd2-8b8e-1e1e13fc890c
+The link to the results in Calliope.pro:
+  
+https://app.calliope.pro/reports/134825/public/a872d2af-1699-49f0-a19f-37903d40ba60
 
 # About automated scenarios
 - Click       (UI)
