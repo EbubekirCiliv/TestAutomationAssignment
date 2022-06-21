@@ -41,7 +41,10 @@ Open Maven right side panel Double Click Project's Lifecycle Click "verify"
 
 -Test Reports Locations:
 
-Cucumber HTML Plugin Reports target -> cucumber-html-reports > overview-steps.html (Right Click and Open in any Browser )
+Cucumber HTML Plugin Reports Result -> cucumber-html-reports > overview-steps.html (Right Click and Open in any Browser )
+
+
+Running tests in CI/CD pipeline:
 
 -In this project I used github actions.(You can have a look at calliope documentation if you want to use other CI/CD tools).
 
