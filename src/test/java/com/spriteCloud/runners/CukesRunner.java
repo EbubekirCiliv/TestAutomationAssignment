@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"json:target/cucumber.json",
-                "html:target/default-html-reports",
-                "rerun:target/rerun.txt"},
+        plugin = {"json:test-results/cucumber.json",
+                "html:test-results/default-html-reports",
+                "rerun:test-results/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/spriteCloud/stepDefinitions",
         dryRun = false,

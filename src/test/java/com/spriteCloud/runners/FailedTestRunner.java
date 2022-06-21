@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target/failed-html-report"},
-        features = "@target/rerun.txt",
+        plugin = {"html:test-results/failed-html-report"},
+        features = "@test-results/rerun.txt",
         glue = "com/spriteCloud/stepDefinitions"
 )
 public class FailedTestRunner {
