@@ -43,6 +43,9 @@ Open Maven right side panel Double Click Project's Lifecycle Click "verify"
 
 Cucumber HTML Plugin Reports Result -> cucumber-html-reports > overview-steps.html (Right Click and Open in any Browser )
 
+Running test from terminal:
+
+mvn -B verify --file pom.xml
 
 Running tests in CI/CD pipeline:
 
